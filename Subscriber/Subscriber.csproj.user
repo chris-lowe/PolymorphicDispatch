@@ -1,0 +1,6 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Chris\Documents\Visual Studio 2008\Projects\PolymorphicD\Subscriber\bin\Debug\NServiceBus.Host.exe</StartProgram>
+  </PropertyGroup>
+</Project>
