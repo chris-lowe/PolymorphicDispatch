@@ -5,14 +5,20 @@ namespace Publisher
 {
     public class SubscriptionAuthorizer : IAuthorizeSubscriptions
     {
-        public bool AuthorizeSubscribe(string messageType, string clientEndpoint, string clientWindowsIdentity, IDictionary<string, string> headers)
+        #region IAuthorizeSubscriptions Members
+
+        public bool AuthorizeSubscribe(string messageType, string clientEndpoint, string clientWindowsIdentity,
+                                       IDictionary<string, string> headers)
         {
             return true;
         }
 
-        public bool AuthorizeUnsubscribe(string messageType, string clientEndpoint, string clientWindowsIdentity, IDictionary<string, string> headers)
+        public bool AuthorizeUnsubscribe(string messageType, string clientEndpoint, string clientWindowsIdentity,
+                                         IDictionary<string, string> headers)
         {
             return true;
         }
+
+        #endregion
     }
 }

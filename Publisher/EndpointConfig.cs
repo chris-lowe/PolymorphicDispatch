@@ -2,5 +2,7 @@
 
 namespace Publisher
 {
-    class EndpointConfig : IConfigureThisEndpoint, AsA_Server, AsA_Publisher { }
+    internal class EndpointConfig : IConfigureThisEndpoint, AsA_Server, AsA_Publisher
+    {
+    }
 }

@@ -1,0 +1,7 @@
+
+*_ReSharper*
+*.suo
+*Backup*
+*/obj/Debug/*
+*/bin/Debug/*.*
+*.suo

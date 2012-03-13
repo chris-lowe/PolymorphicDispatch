@@ -2,5 +2,7 @@
 
 namespace Subscriber1
 {
-    class EndpointConfig : IConfigureThisEndpoint, AsA_Server { }
+    internal class EndpointConfig : IConfigureThisEndpoint, AsA_Server
+    {
+    }
 }
